@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "bookTitle": "Don Quijote de la Mancha",
+        "autor": "Miguel de Cervantes",
+        "image": "https://m.media-amazon.com/images/I/61HOpyVqSeL._SX260_.jpg",
+        "description": "es una novela escrita por el español Miguel de Cervantes Saavedra. Publicada su primera parte con el título de El ingenioso hidalgo don Quijote"
+    },
+    {
+        "id": 2,
+        "bookTitle": "1984",
+        "autor": "Orson Welles",
+        "image": "https://imagessl4.casadellibro.com/a/l/t5/44/9788499890944.jpg",
+        "description": "is a dystopian novella by George Orwell published in 1949, which follows the life of Winston Smith, a low ranking member of 'the Party'"
+    },
+    {
+        "id": 3,
+        "bookTitle": "100 años de soledad",
+        "autor": "Gabriel García Márquez",
+        "image": "https://images.penguinrandomhouse.com/cover/9780525562443",
+        "description": "Cien años de soledad es una novela del escritor colombiano Gabriel García Márquez, ganador del Premio Nobel de Literatura en 1982. Es considerada una"
+    },
+    {
+        "id": 4,
+        "bookTitle": "El Principito",
+        "autor": "Antoine de Sant Sauxpery",
+        "image": "https://imagessl4.casadellibro.com/a/l/t5/94/9788478887194.jpg",
+        "description": "El principito (en francés: Le Petit Prince) es una novela corta y la obra más famosa del escritor y aviador francés Antoine de Saint-Exupéry (1900-1944)"
+    },
+    {
+        "id": 5,
+        "bookTitle": "El Camino",
+        "autor": "Miguel Delibes",
+        "image": "https://imagessl3.casadellibro.com/a/l/t5/03/9788423342303.jpg",
+        "description": "El camino es la tercera novela del escritor español Miguel Delibes. Fue publicada en 1950. .Está ambientada en la España rural de la posguerra. Aunque"
+    },
+    {
+        "id": 6,
+        "bookTitle": "Los Pilares de la tierra",
+        "autor": "Ken Follet",
+        "image": "https://imagessl0.casadellibro.com/a/l/t5/10/9788401328510.jpg",
+        "description": "es una novela histórica del autor británico Ken Follett, ambientada en Inglaterra en la Edad Media, en concreto en el siglo XII, durante"
+    }
+]

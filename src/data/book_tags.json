@@ -1,0 +1,28 @@
+[
+    {
+        "category": "Genero",
+        "subitems": true,
+        "value": [
+            "Novela",
+            "Fantastico",
+            "Ficción",
+            "Siglo XVII"
+        ]
+    },
+    {
+        "category": "Pages",
+        "value": 254
+    },
+    {
+        "category": "ISBN",
+        "value": "9788425223280"
+    },
+    {
+        "category": "Language",
+        "value": "Spanish (Translate to 11 languages)"
+    },
+    {
+        "category": "Prologo",
+        "value": "Antonio de la Torre"
+    }
+]

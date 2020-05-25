@@ -1,0 +1,30 @@
+[
+    {
+        "user": "Frozen Yogurt",
+        "rate": 8
+    },
+    {
+        "user": "Ice cream sandwich",
+        "rate": 7
+    },
+    {
+        "user": "Eclair",
+        "rate": 6
+    },
+    {
+        "user": "Cupcake",
+        "rate": 8
+    },
+    {
+        "user": "Gingerbread",
+        "rate": 9
+    },
+    {
+        "user": "Jelly bean",
+        "rate": 10
+    },
+    {
+        "user": "Lollipop",
+        "rate": 5
+    }
+  ]

@@ -1,0 +1,42 @@
+[
+    {
+        "group": 1,
+        "items": [
+            {
+                "name": "Arturo Pérez Reverte",
+                "image": "https://www.guadanews.es/fotos/121/UNA_NUEVA_HISTORIA_DE_ESPAA_A_ALFAGUARA_PEREZ_REVERTE_GUADANEWS.jpeg",
+                "average_rating": "8,7"
+            },
+            {
+                "name": "Ken Follet",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Ken_Follett_official.jpg",
+                "average_rating": "8"
+            },
+            {
+                "name": "Gabriel García Márquez",
+                "image": "https://www.biografiasyvidas.com/biografia/g/fotos/garcia_marquez_gabriel.jpg",
+                "average_rating": "9,4"
+            }
+        ]
+    },
+    {
+        "group": 2,
+        "items": [
+            {
+                "name": "Dan Brown",
+                "image": "https://static2planetadelibroscom.cdnstatics.com/usuaris/autores/fotos/22/tam_1/000021093_1_Dan_Brown_C_Quim_Vives_201709111713.jpg",
+                "average_rating": "6"
+            },
+            {
+                "name": "Isabel Allende",
+                "image": "https://www.biografiasyvidas.com/biografia/a/fotos/allende_isabel.jpg",
+                "average_rating": "8,1"
+            },
+            {
+                "name": "Agatha Christie",
+                "image": "https://static3.abc.es/Media/201311/07/Agatha-Christie-Novela-Negra--644x662.JPG",
+                "average_rating": "8,7"
+            }
+        ]
+    }
+]

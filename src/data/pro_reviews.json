@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Antonio Libro",
+        "source": "el Mundo",
+        "rate": 3,
+        "review": "El mejor libro que he leido en mi vida, jamás leeré una cosa similar, jamás"
+    },
+    {
+        "name": "Verónica Manrique",
+        "source": "el País",
+        "rate": 4,
+        "review": "La belleza de mayo radica en las palabras del autor, noviembre no será nunca tan dulce"
+    }
+]

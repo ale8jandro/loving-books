@@ -1,0 +1,53 @@
+[
+    {
+        "title": "Home",
+        "icon": "home",
+        "link": "/",
+        "items": []
+    },
+    {
+        "title": "User",
+        "icon": "account_circle",
+        "link": "/user_profile",
+        "expandable": true,
+        "items": [
+            {
+                "category": "Administration",
+                "items": [
+                    {
+                        "title": "Settings",
+                        "icon": "settings",
+                        "link": "/user_settings"
+                    },
+                    {
+                        "title": "Manage my Lists",
+                        "icon": "list",
+                        "link": "/manage_lists"
+                    }
+                ]
+            },
+            {
+                "category": "Social",
+                "items": [
+                    {
+                        "title": "My friends",
+                        "icon": "group",
+                        "link": "/user_friends"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "New Incorporations",
+        "icon": "fiber_new",
+        "link": "/new_adds",
+        "items": []
+    },
+    {
+        "title": "The very best of",
+        "icon": "star",
+        "link": "/ranked",
+        "items": []
+    }
+]
