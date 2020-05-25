@@ -9,8 +9,8 @@
 import MiniaturesCarousel from '@/components/MiniaturesCarousel';
 import AuthorSlider from '@/components/AuthorSlider';
 
-import dataBooksMiniature from '../../data/booksMiniature.json';
-import dataAuthorSlider from '../../data/author_slider.json';
+import dataBooksMiniature from '@/data/books_miniature.json';
+import dataAuthorSlider from '@/data/author_slider.json';
 
 import home_configuration from './configuration/home_configuration.json';
 

@@ -8,7 +8,7 @@
             </v-col>
             <v-col cols="3">
                 <v-card>
-                    
+                    <AuthorSidebar :id="id" />
                 </v-card>
             </v-col>
         </v-row>
@@ -17,6 +17,7 @@
 
 <script>
 import AuthorHeader from '@/components/AuthorHeader';
+import AuthorSidebar from '@/components/AuthorSidebar';
 
 export default {
     name: 'Author',
@@ -25,6 +26,7 @@ export default {
     }),
     components: {
         AuthorHeader,
+        AuthorSidebar,
     },
     watch: {
         '$route.query.id': {

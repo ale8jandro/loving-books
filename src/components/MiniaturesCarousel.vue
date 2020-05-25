@@ -17,6 +17,7 @@
 
 <script>
 import BookMiniature from '@/components/BookMiniature';
+
 export default {
     name: 'MiniaturesCarousel',
     components: {

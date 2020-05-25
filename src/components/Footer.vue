@@ -4,7 +4,8 @@
             <v-btn v-for="(link, index) in links" :key="index"
               text
               rounded
-              class="my-2" :to="link.link">
+              class="my-2"
+              :to="link.link">
                 {{ link.name }}
             </v-btn>
             <v-col class="py-4 text-center" cols="12">

@@ -3,7 +3,9 @@
         <v-card
           max-width="150"
           elevation="4"
-          class="mx-auto">
+          class="mx-auto"
+          link
+          :to="{ path: 'book', query: { id: book.id }}">
             <v-list-item>
                 <v-list-item-content>
                     <v-list-item-title class="headline">{{ book.bookTitle }}</v-list-item-title>
