@@ -5,7 +5,7 @@
                 <v-card>
                     <BookHeader :id="id" />
                     <v-divider />
-                    <BookTags :id="id" />
+                    <Tags :tags="bookTagsData"/>
                     <v-divider />
                     <ProReviews :id="id" />
                     <v-divider />
@@ -27,21 +27,24 @@
 
 <script>
 import BookHeader from '@/components/BookHeader';
-import BookTags from '@/components/BookTags';
+import Tags from '@/components/Tags';
 import ProReviews from '@/components/ProReviews';
 import BookAwards from '@/components/BookAwards';
 import ReviewForm from '@/components/ReviewForm';
 import FriendsRating from '@/components/FriendsRating';
 import BookSidebar from '@/components/BookSidebar';
 
+import book_tags_data from '@/data/book_tags.json';
+
 export default {
     name: 'Book',
     data: () => ({
         id: '',
+        bookTagsData: [],
     }),
     components: {
         BookHeader,
-        BookTags,
+        Tags,
         ProReviews,
         BookAwards,
         ReviewForm,
@@ -55,6 +58,9 @@ export default {
                 this.id = newValue;
             },
         },
+    },
+    created() {
+        this.bookTagsData = book_tags_data;
     },
 }
 </script>

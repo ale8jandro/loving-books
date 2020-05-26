@@ -1,0 +1,34 @@
+[
+    {
+        "image": "https://m.media-amazon.com/images/I/61HOpyVqSeL._SX260_.jpg",
+        "name": "Don Quijote",
+        "year": 1605,
+        "rate": 9.3,
+        "ratings": 2326,
+        "description": "es una novela escrita por el español Miguel de Cervantes Saavedra. Publicada su primera parte con el título de El ingenioso hidalgo don Quijote"
+    },
+    {
+        "image": "https://imagessl4.casadellibro.com/a/l/t5/44/9788499890944.jpg",
+        "name": "1984",
+        "year": 1949,
+        "rate": 8.7,
+        "ratings": 5002,
+        "description": "is a dystopian novella by George Orwell published in 1949, which follows the life of Winston Smith, a low ranking member of 'the Party'"
+    },
+    {
+        "image": "https://images.penguinrandomhouse.com/cover/9780525562443",
+        "name": "100 años de soledad",
+        "year": 1982,
+        "rate": 9.8,
+        "ratings": 7526,
+        "description": "Cien años de soledad es una novela del escritor colombiano Gabriel García Márquez, ganador del Premio Nobel de Literatura en 1982. Es considerada una"
+    },
+    {
+        "image": "https://imagessl4.casadellibro.com/a/l/t5/94/9788478887194.jpg",
+        "name": "El Principito",
+        "year": 1943,
+        "rate": 6.3,
+        "ratings": 2540,
+        "description": "El principito (en francés: Le Petit Prince) es una novela corta y la obra más famosa del escritor y aviador francés Antoine de Saint-Exupéry (1900-1944)"
+    }
+]

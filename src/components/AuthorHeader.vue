@@ -12,8 +12,8 @@
                         <v-container>
                             <v-row class="display-2">Arturo Perez Reverte</v-row>
                             <v-row>
-                                <flag iso="it" />
-                                <span class="font-italic">from 12/05/1958 to today</span>
+                                <flag iso="es" />
+                                <span class="font-italic">from 1986 to today</span>
                             </v-row>
                         </v-container>
                     </v-col>

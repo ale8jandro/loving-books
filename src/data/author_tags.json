@@ -1,0 +1,23 @@
+[
+    {
+        "category": "Generos",
+        "subitems": true,
+        "value": [
+            "Novela",
+            "Novela histórica",
+            "Ficción de detectives"
+        ]
+    },
+    {
+        "category": "Nacionalidad",
+        "value": "Española"
+    },
+    {
+        "category": "Idioma",
+        "value": "Español"
+    },
+    {
+        "category": "Nacimiento",
+        "value": "25 de noviembre de 1951, Cartagena (Murcia)"
+    }
+]

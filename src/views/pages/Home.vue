@@ -20,13 +20,11 @@ export default {
         MiniaturesCarousel,
         AuthorSlider,
     },
-    data() {
-        return {
-            booksMiniature: [],
-            homeConfiguration: [],
-            authorSlider: [],
-        };
-    },
+    data: () => ({
+        booksMiniature: [],
+        homeConfiguration: [],
+        authorSlider: [],
+    }),
     created() {
         // Do the fetch of the books Miniatures
         this.booksMiniature = dataBooksMiniature;
