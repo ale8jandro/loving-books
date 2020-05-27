@@ -31,13 +31,27 @@ export default {
         authorWorkData: [],
         orderBy: 'name',
     }),
+    methods: {
+        reorderWorkData(value) {
+            this.authorWorkData.sort((a, b) => {
+                if (a[value] > b[value]) {
+                    return 1;
+                }
+                if (a[value] < b[value]) {
+                    return -1;
+                }
+                return 0;
+            });
+        },
+    },
     watch: {
         orderBy(newValue) {
-            console.log(newValue);
+            this.reorderWorkData(newValue);
         },
     },
     created() {
         this.authorWorkData = author_work_data;
+        this.reorderWorkData(this.orderBy);
     },
 }
 </script>

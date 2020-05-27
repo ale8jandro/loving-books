@@ -19,7 +19,7 @@ export default {
     name: 'RateGraphics',
     props: {
         id: {
-            type: String,
+            type: Number,
         },
     },
     data: () => ({

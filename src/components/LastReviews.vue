@@ -43,7 +43,7 @@ export default {
     name: 'LastReviews',
     props: {
         id: {
-            type: String,
+            type: Number,
         },
     },
     data: () => ({

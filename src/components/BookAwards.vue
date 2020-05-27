@@ -9,7 +9,7 @@ export default {
     name: 'BookAwards',
     props: {
         id: {
-            type: String,
+            type: Number,
         },
     },
 }

@@ -54,7 +54,7 @@ export default {
     name: 'RateElement',
     props: {
         id: {
-            type: String,
+            type: Number,
         },
     },
     data: () => ({

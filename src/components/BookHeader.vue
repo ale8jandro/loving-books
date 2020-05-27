@@ -35,7 +35,7 @@ export default {
     name: 'BookHeader',
     props: {
         id: {
-            type: String,
+            type: Number,
         },
     },
 }

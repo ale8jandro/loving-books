@@ -15,7 +15,7 @@ export default {
     name: 'Average',
     props: {
         id: {
-            type: String,
+            type: Number,
         },
     },
     data: () => ({

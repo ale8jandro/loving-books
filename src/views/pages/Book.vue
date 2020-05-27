@@ -39,7 +39,7 @@ import book_tags_data from '@/data/book_tags.json';
 export default {
     name: 'Book',
     data: () => ({
-        id: '',
+        id: 0,
         bookTagsData: [],
     }),
     components: {

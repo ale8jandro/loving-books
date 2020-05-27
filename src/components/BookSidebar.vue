@@ -37,7 +37,7 @@ export default {
     name: 'BookSidebar',
     props: {
         id: {
-            type: String,
+            type: Number,
         },
     },
     components: {

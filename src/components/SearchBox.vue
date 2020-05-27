@@ -1,5 +1,5 @@
 <template>
-    <v-form class="mt-7">
+    <v-form class="mt-7 b-search-box-size">
         <v-container>
             <v-row>
                 <v-col cols="12">
@@ -10,7 +10,7 @@
                         :label="searchLabel"
                         type="text"
                         append-icon="search"
-                    >
+                        >
                     </v-text-field>
                 </v-col>
             </v-row>
@@ -21,11 +21,15 @@
 <script>
 export default {
     name: 'SearchBox',
-    data() {
-        return {
-            search: '',
-            searchLabel: 'Type a book to search',
-        };
-    },
+    data: () => ({
+        search: '',
+        searchLabel: 'Type a book to search',
+    }),
 }
 </script>
+
+<style>
+    .b-search-box-size {
+        width: 600px;
+    }
+</style>

@@ -29,7 +29,7 @@ export default {
     name: 'ProReviews',
     props: {
         id: {
-            type: String,
+            type: Number,
         },
     },
     data: () => ({
