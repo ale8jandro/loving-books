@@ -4,6 +4,14 @@
             <h1 class="font-weight-bold display-1">
                 Results to '{{ search }}'
             </h1>
+            <v-spacer></v-spacer>
+            <div style="width: 200px;">
+                <v-select
+                    :items="ordersItem"
+                    label="Order by"
+                    :value="orderBy"
+                    />
+            </div>
         </v-card-title>
         <v-tabs v-model="tab">
             <v-tab v-for="(result, index) in results" :key="index">
@@ -25,6 +33,7 @@ import name_results_data from '@/data/name_results.json';
 import author_results_data from '@/data/author_results.json';
 
 const items = ['Name', 'Author'];
+const orders = ['year', 'title', 'author', 'rate'];
 
 export default {
     name: 'ResultCard',
@@ -35,9 +44,13 @@ export default {
         tab: null,
         text: 'asdf',
         results: [],
+        ordersItem: orders,
     }),
     props: {
         search: {
+            type: String,
+        },
+        orderBy: {
             type: String,
         },
     },

@@ -5,7 +5,7 @@
                 {{ tag.category }}
             </v-col>
             <v-col cols="10" v-if="tag.subitems">
-                <v-chip label @click="goToResults" class="mr-5" v-for="(value, indexValue) in tag.value" :key="indexValue">{{ value }}</v-chip>
+                <v-chip label @click="goToResults(value)" class="mr-5" v-for="(value, indexValue) in tag.value" :key="indexValue">{{ value }}</v-chip>
             </v-col>
             <v-col cols="10" v-else>
                 {{ tag.value }}
@@ -23,7 +23,15 @@ export default {
         },
     },
     methods: {
-        goToResults() {
+        goToResults(value) {
+            this.$router.push({
+                path: 'results',
+                query: {
+                    search: value,
+                    searchBy: 'genre',
+                    orderBy: 'rate',
+                },
+            });
         },
     },
 }
