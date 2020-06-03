@@ -24,6 +24,11 @@ const routes = [
     name: 'Book',
     component: () => import(/* webpackChunkName: "book" */ '../views/pages/Book.vue'),
   },
+  {
+    path: '/register',
+    name: 'Register',
+    component: () => import(/* webpackChunkName: "register" */ '../views/pages/Register.vue'),
+  },
 ];
 
 const router = new VueRouter({
@@ -32,4 +37,4 @@ const router = new VueRouter({
   routes,
 });
 
-export default router
+export default router;
