@@ -17,7 +17,7 @@
 
 <script>
 export default {
-    name: 'ResultBook',
+    name: 'BookItem',
     props: {
         book: {
             type: Object,

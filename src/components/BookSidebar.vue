@@ -19,6 +19,12 @@
             </v-col>
         </v-row>
         <v-divider></v-divider>
+        <v-row class="text--secondary text-center">
+            <v-col>
+                <router-link to="lists" class="monoColor05--text font-regular b-book-side-text-decoration">Add to list</router-link>
+            </v-col>
+        </v-row>
+        <v-divider></v-divider>
         <v-row>
             <v-col>
                 <LastReviews :id="id" />
@@ -48,3 +54,9 @@ export default {
     },
 }
 </script>
+
+<style>
+    .b-book-side-text-decoration {
+        text-decoration: none;
+    }
+</style>

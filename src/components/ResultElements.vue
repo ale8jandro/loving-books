@@ -1,7 +1,7 @@
 <template>
     <div>
         <EmptyResults v-if="results.length === 0" />
-        <ResultBook v-for="(result, index) in results" :key="index" :book="result"/>
+        <BookItem v-for="(result, index) in results" :key="index" :book="result"/>
         <div class="text-center">
             <v-pagination
                 v-model="page"
@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import ResultBook from '@/components/ResultBook';
+import BookItem from '@/components/BookItem';
 import EmptyResults from '@/components/EmptyResults';
 
 const resultsPerPage = 10;
@@ -21,7 +21,7 @@ export default {
     name: 'ResultElements',
     components: {
         EmptyResults,
-        ResultBook,
+        BookItem,
     },
     props: {
         results: {
